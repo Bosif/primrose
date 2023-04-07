@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Primrose</title>
+        <link href="resources/styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <span>SPRING SALE 10% OFF SELECTED ITEMS!</span>
+        </header>
+        <main>
+            <div>
+                <img id="logo" src="/resources/images/Logo.png" alt="Primrose Plants logo" />
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="cover-container">
+                <div class="quote">
+                    <h2>"The Earth laughs in flowers"</h2>
+                    <h3>-Ralph Waldo Emerson</h3>
+                </div>
+            </div>
+
+            <!--Products-->
+            <h2 id="products">Our Latest Products</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="/resources/images/plant1.jpg" alt="Plant" />
+                    <h3 class="product-title">Calathea Orbifolia</h3>
+                    <p class="product-price">$35</p>
+                    <p class="product-info">View full details</p>
+                    <button class="cart-button">Add to cart <br /><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+                <div class="product-card">
+                    <img src="/resources/images/plant3.jpg" alt="Plant" />
+                    <h3 class="product-title">Philodendron</h3>
+                    <p class="product-price">$45</p>
+                    <p class="product-info">View full details</p>
+                    <button class="cart-button">Add to cart <br /><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+                <div class="product-card">
+                    <img src="/resources/images/plant2.jpg" alt="Plant" />
+                    <h3 class="product-title">Calathea 'Pink Fusion'</h3>
+                    <p class="product-price">$60</p>
+                    <p class="product-info">View full details</p>
+                    <button class="cart-button">Add to cart <br /><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+
+            <!--About-->
+            <div class="mission-container">
+                <h2 id="mission">Our mission</h2>
+                <img src="/resources/images/woman.jpeg" id="woman" />
+                <p id="mission-description">
+                    My name is Ella Manson, I am from Missouri and I have always felt connected to nature. <br />I love
+                    plants and flowers and getting my hands dirty in the garden. <br />
+                    I started this company 1 year ago in 2022, with the goal of getting other people to love the flora
+                    of this beautiful planet. <br />
+                    Did you know that plants are not only beautiful, but they also enrich your health and environment!
+                    <br />
+                    I hope to expand my shop in the future, but for now enjoy the limited, but alluring collection of my
+                    favorite green friends.
+
+                    <br /><i
+                        >*Two percent of all income goes to the Nature Conservancy to help prevent climate change.*</i
+                    >
+                </p>
+            </div>
+
+            <!--Contact-->
+            <div class="section">
+                <h2 id="contact">Ask a question</h2>
+                <div class="contact">
+                    <form>
+                        <p>Your name *</p>
+                        <input type="text" name="username" id="username" required />
+                        <p>Your email *</p>
+                        <input type="text" name="email" id="email" required />
+                        <p>Subject *</p>
+                        <input type="text" name="subject" id="subject" required />
+                        <p>Message *</p>
+                        <textarea name="comment" required></textarea><br />
+                        <button type="submit" value="send">Send</button>
+                    </form>
+
+                    <div class="social-media">
+                        <h3>Follow Primrose Plants on social media!</h3>
+                        <a href="#"><img id="social-media-icon" src="/resources/images/facebook.png" /></a>
+                        <a href="#"><img id="social-media-icon" src="/resources/images/instagram.png" /></a>
+                        <a href="#"><img id="social-media-icon" src="/resources/images/tiktok.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>
+                COPYRIGHT &copy; 2023 CREATED BY BO RUTJES -
+                <a target="_blank" href="https://icons8.com/icon/84884/instagram">Icons</a> by
+                <a target="_blank" href="https://icons8.com">Icons8</a>
+            </p>
+        </footer>
+    </body>
+</html>
